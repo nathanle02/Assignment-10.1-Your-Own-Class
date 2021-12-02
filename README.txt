@@ -1,0 +1,10 @@
+Class Documentation:
+	Description of the class: The GamingConsole class will create a gaming console that takes in the brand, model, and age of the console. Within the class, there are get-set methods for the brand, model, and age, a method that increments the age of the gaming console, a method that decides whether your console will start or not, and a magic method. The purpose of the GamingConsole class is to create a gaming console and use the use the methods in the main to increment the age of the console and show whether it will turn on when its age gets incremented.
+		
+	Description of each of the data variables: The first data variable is the brand that created the console. The second data variable is the model of the console. The third data variable is the age of the console.
+
+	Description of each of the methods: The will_it_start method will give a set a chance for the console to start or not depending on the console's age. This method will take in the age of the console and it will return a message saying whether the console started up or not. The getting_older method increments the age of the console. It will take in the age of the console and add one to it everytime that the method is called. The magic method just helps with printing out things.
+
+Demo Program Documentation:
+	Description of the demo program: The demo will create a PS5 with the GamingConsole class and will also create a default class that uses the set methods. It will print out the PS5 first and then asks the user to input a number to be used in the while loop, and it will do the same for the other console. In the while loop it will show whether the console will start and increments the age increasing the chances of the console not turning, which is also the same for the console that is created with the set methods.
+	Instructions on how to run the demo program: To run the program the user is just asked to input two positive numbers.
